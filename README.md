@@ -1,2 +1,37 @@
-# -Escape-the-Dragon-Dungeon-Pac-Man-Imitation
-A 2D grid-based maze game in C inspired by Pac-Man, focused on map parsing, path logic, collision handling, and real-time game loops.
+# Escape the Dragon Dungeon - Pac-Man Imitation
+
+## Overview
+This project is a custom `so_long` implementation: a small 2D tile game built with MiniLibX.  
+The player navigates a map, collects all items, and exits the dungeon while respecting map rules.
+
+## Core Concepts Covered
+- map parsing and validation (`.ber` format)
+- flood-fill/path validation for map solvability
+- event-driven programming with keyboard hooks
+- 2D rendering with sprites using MiniLibX
+- memory/resource cleanup in C
+
+## Build
+From this project directory:
+
+```bash
+make
+```
+
+## Run
+Run with a map file:
+
+```bash
+./so_long maps/map1.ber
+```
+
+## Controls
+- W: move up
+- S: move down
+- A: move left
+- D: move right
+- `ESC`: quit
+
+## Notes
+- The game expects exactly one map argument.
+- Linux/X11 MiniLibX is used (`-lX11 -lXext -lm -lz`).
