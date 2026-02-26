@@ -1,8 +1,16 @@
 # Escape the Dragon Dungeon - Pac-Man Imitation
 
+<p align="center">
+  <img src="./assets/so_long_logo.png" alt="project badge"/>
+</p>
+
 ## Overview
 This project is a custom `so_long` implementation: a small 2D tile game built with MiniLibX.  
 The player navigates a map, collects all items, and exits the dungeon while respecting map rules.
+
+<p align="center">
+  <img src="./assets/solong_screenshot.png" alt="project screenshot"/>
+</p>
 
 ## Core Concepts Covered
 - map parsing and validation (`.ber` format)
