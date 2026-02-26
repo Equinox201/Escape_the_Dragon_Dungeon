@@ -1,7 +1,7 @@
 # Escape the Dragon Dungeon - Pac-Man Imitation
 
 <p align="center">
-  <img src="./assets/so_long_logo.png" alt="project badge"/>
+  <img src="https://github.com/Equinox201/Escape_the_Dragon_Dungeon/blob/main/assets/so_long_logo.png" alt="project badge"/>
 </p>
 
 ## Overview
